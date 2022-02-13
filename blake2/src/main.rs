@@ -10,6 +10,8 @@ fn main() {
     let res1 = hash1.finalize();
     let res2 = hash2.finalize();
 
+    println!("The Blake2s256 hash for \"Hello\" is");
     println!("{:x}", res1);
+    println!("The Blake2b512 hash for \"Hello\" is");
     println!("{:x}", res2);
 }
