@@ -19,14 +19,14 @@ fn main() {
     let result4 = hash4.finalize();
     let result5 = hash5.finalize();
 
-    println!("The result for Fsb160 hash \"Hello\" is:");
-    println!("{:x}", result1);
+    println!("\nThe result for Fsb160 hash \"Hello\" is:");
+    println!("{:x}\n", result1);
     println!("The result for Fsb224 hash \"Hello\" is:");
-    println!("{:x}", result2);
+    println!("{:x}\n", result2);
     println!("The result for Fsb256 hash \"Hello\" is:");
-    println!("{:x}", result3);
+    println!("{:x}\n", result3);
     println!("The result for Fsb348 hash \"Hello\" is:");
-    println!("{:x}", result4);
+    println!("{:x}\n", result4);
     println!("The result for Fsb512 hash \"Hello\" is:");
-    println!("{:x}", result5);
+    println!("{:x}\n", result5);
 }
