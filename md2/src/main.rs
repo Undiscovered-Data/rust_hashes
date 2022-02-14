@@ -4,5 +4,6 @@ fn main() {
     let mut hasher =  Md2::new();
     hasher.update("Hello");
     let res = hasher.finalize();
-    println!("{:x}", res);
+    println!("\nThe Md2 hash for \"Hello\" is:");
+    println!("{:x}\n", res);
 }
