@@ -10,6 +10,8 @@ fn main() {
     let res1 = hash1.finalize();
     let res2 = hash2.finalize();
 
-    println!("{:x}", res1);
-    println!("{:x}", res2);
+    println!("\nThe Streebog256 hash for \"Hello\" is:");
+    println!("{:x}\n", res1);
+    println!("The Streebog512 hash for \"Hello\" is:");
+    println!("{:x}\n", res2);
 }
