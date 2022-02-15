@@ -4,5 +4,6 @@ fn main() {
     let mut hasher = Sha1::new();
     hasher.update("Hello");
     let res = hasher.finalize();
-    println!("{:x}", res);
+    println!("\nThe Sha1 hash for \"Hello\" is:");
+    println!("{:x}\n", res);
 }
